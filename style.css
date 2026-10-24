@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-image: url('certificado-grunge-marco-ornamental-epoca_1048-11681.avif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #211d2b; 
+    padding: 20px;
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+
+main {
+    text-align: center;
+    padding: 35px 20px;
+    color: #493653;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* Botón interactivo */
+button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background-color: #74151d;
+    color: #f3e5ab;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+    background-color: #8b1a23;
+    border-color: #ffd700;
+    transform: scale(1.05);
+}
+
+section {
+    padding: 25px 20px;
+    text-align: center;
+    color: #493653;
+    margin-bottom: 25px;
+}
+
+/* Tarjetas generales */
+div {
+    background-color: #f4ecd8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 18px;
+    border-radius: 10px;
+    border: 2px solid #c5a059;  
+    text-align: left;
+    color: #2c1e12;
+}
+
+footer {
+    background-color: #211d2b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+    margin: 8px;
+}
+
+/* Recuadro principal y de Hogwarts */
+.caja-hogwarts {
+    background-color: rgba(244, 236, 216, 0.9);
+    border: 2px solid #c5a059;                  
+    border-radius: 12px;                      
+    max-width: 650px;                         
+    margin: 30px auto;                         
+    padding: 30px 25px;                        
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    text-align: center;                        
+    color: #2c1e12;                            
+}
