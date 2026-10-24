@@ -1,0 +1,86 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El mundo de Harry Potter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Bienvenidos al mundo mágico</h2>
+        <img src="67.jpg" alt="Imagen mágica">
+    </header>
+
+    <main>
+        
+        <div id="pantalla-inicio" class="caja-hogwarts">
+            <h1>El mundo de Harry Potter</h1>
+            <h2>Conoce Hogwarts</h2>
+
+            <p>
+                Hola, bienvenido a mi página.
+                Aquí podrás conocer más sobre Harry Potter,
+                sus amigos y el mundo de la magia.
+            </p>
+
+            <p>
+                También podrás descubrir las cuatro casas
+                de Hogwarts, algunos hechizos y criaturas mágicas.
+            </p>
+
+         
+            <button onclick="mostrarHogwarts()">Conocer más</button>
+        </div>
+
+
+        <div id="pantalla-hogwarts" style="display: none;">
+            
+            <div class="caja-hogwarts">
+                <h3>Hogwarts</h3>
+                <p>Es la escuela de magia donde estudian Harry y sus amigos.</p>
+            </div>
+
+            <div class="caja-hogwarts">
+                <h3>Hechizos</h3>
+                <p>Son una parte importante del mundo mágico.</p>
+            </div>
+
+            <div class="caja-hogwarts">
+                <h3>Criaturas mágicas</h3>
+                <p>En este mundo hay muchas criaturas diferentes y especiales.</p>
+            </div>
+
+            <div class="caja-hogwarts">
+                <h3>Las cuatro casas</h3>
+                <p>Son Gryffindor, Slytherin, Ravenclaw y Hufflepuff.</p>
+            </div>
+
+            
+            <button onclick="volverInicio()">Volver al inicio</button>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Proyecto escolar de Amelia</p>
+        <p>El mundo mágico de Harry Potter</p>
+    </footer>
+
+    <script>
+        function mostrarHogwarts() {
+            document.getElementById('pantalla-inicio').style.display = 'none';
+            document.getElementById('pantalla-hogwarts').style.display = 'block';
+        }
+
+        function volverInicio() {
+            document.getElementById('pantalla-hogwarts').style.display = 'none';
+            document.getElementById('pantalla-inicio').style.display = 'block';
+        }
+    </script>
+
+</body>
+
+</html>
